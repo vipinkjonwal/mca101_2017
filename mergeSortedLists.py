@@ -2,16 +2,16 @@ list1 = [10,20,30,40,50]
 list2 = [3,7,16,43,67,78,85]
 def mergeLists(list1,list2,list3=[],index1=0,index2=0):
 	'''
-	Objective 			: To merge tow sorted lists into third list.
+	Objective 		: To merge tow sorted lists into third list.
 	Input Parameters	:
-				list1	: First List
-				list2 	: Second List
-				list3	: default - empty list.
-				index1	: default 0 - for iterating list1
-				index2	: default 0 - for iterating list2
+			list1	: First List
+			list2 	: Second List
+			list3	: default - empty list.
+			index1	: default 0 - for iterating list1
+			index2	: default 0 - for iterating list2
 	Return Values		: List3, after merging list1 and list2
 	'''
-	#Approach			: Recursion is used.
+	#Approach		: Recursion is used.
 
 	if index1 == len(list1) and index2 == len(list2):
 		return list3
